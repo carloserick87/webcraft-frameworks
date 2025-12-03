@@ -27,7 +27,7 @@
   ],
   "rewrites": [
     {
-      "source": "/(.*)",
+      "source": "/((?!api|_next/static|_next/image|favicon|API.json|.*\\..*).*)",
       "destination": "/index.html"
     }
   ],
