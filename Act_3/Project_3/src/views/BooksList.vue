@@ -59,7 +59,7 @@ const books = ref([]);
 const loading = ref(true);
 const error = ref(false);
 
-// 👉 API local: en Vite, los archivos de public se sirven desde la raíz
+// 👉 API local: en Vite/Vercel, los archivos de public se sirven desde la raíz
 const API_URL = "/API.json";
 
 onMounted(async () => {
