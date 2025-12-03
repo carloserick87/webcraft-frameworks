@@ -27,7 +27,7 @@
   ],
   "rewrites": [
     {
-      "source": "/((?!api|_next|favicon|.*\\.(json|ico|png|jpg|jpeg|gif|svg|css|js|woff|woff2|ttf|eot)).*)",
+      "source": "/((?!api|_next|favicon|public|.*\\.(json|ico|png|jpg|jpeg|gif|svg|css|js|woff|woff2|ttf|eot|webmanifest)).*)",
       "destination": "/index.html"
     }
   ],
