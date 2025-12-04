@@ -59,8 +59,8 @@ const books = ref([]);
 const loading = ref(true);
 const error = ref(false);
 
-// 👉 Usamos tu API local en /public
-const API_URL = "/public/API.json";
+// 👉 API local: en Vite/Vercel, los archivos de public se sirven desde la raíz
+const API_URL = "/API.json";
 
 onMounted(async () => {
   try {
