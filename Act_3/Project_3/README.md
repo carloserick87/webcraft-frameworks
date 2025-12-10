@@ -63,7 +63,7 @@ Ejecuta el servidor de desarrollo:
 npm run dev
 ```
 
-## Despliegue 
+## Despliegue
 
 El proyecto está desplegado en Vecel, acccesible desde: <https://projectnexusbookstore-vuejs.vercel.app/>
 
@@ -76,3 +76,5 @@ Sergio Peña Pineda
 Desarrolladores Web & UI Developer.
 
 Dublín, Irlanda.
+
+Madrid, España
