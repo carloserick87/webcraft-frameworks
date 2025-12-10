@@ -26,10 +26,11 @@
   ],
   "rewrites": [
     {
-      "source": "/(.*)",
+      "source": "/((?!api|_next|favicon|public|.*\\.(json|ico|png|jpg|jpeg|gif|svg|css|js|woff|woff2|ttf|eot|webmanifest)).*)",
       "destination": "/index.html"
     }
   ],
   "cleanUrls": true,
   "trailingSlash": false
 }
+
