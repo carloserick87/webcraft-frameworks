@@ -1,3 +1,5 @@
+<!-- BooksList -->
+
 <template>
   <section class="max-w-7xl mx-auto px-4 py-12">
     <h1 class="text-3xl md:text-4xl font-bold mb-10 text-center">

@@ -1,3 +1,5 @@
+<!-- Contact -->
+
 <template>
   <section class="bg-gray-100 py-12 px-6">
     <div class="max-w-3xl mx-auto bg-white shadow-lg rounded-2xl p-8">
