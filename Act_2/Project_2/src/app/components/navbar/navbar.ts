@@ -3,41 +3,34 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
 
 @Component({
   selector: 'app-navbar',
-  standalone: true,
-  imports: [RouterLink, RouterLinkActive],
+  imports: [],
   templateUrl: './navbar.html',
-  styleUrls: ['./navbar.css'],
+  styleUrl: './navbar.css',
 })
-
 export class Navbar {
 
-  brandName = {
-    name:'Nexus',
-    descriptor: 'Book'
-  };
+topMenu = {
+  home: 'Home',
+  about: 'About Us',
+  place: 'Coworking',
+  events: 'Events',
+  contact: 'Contact'
+}
 
-  menuBar = {
-    home:'Inicio',
-    books:'Libros',
-    aboutUs:'Sobre nosotros',
-    categories:'Categorias',
-    subCategories_1:{
-      fiction:'Ficción',
-      nonFiction:'No Ficción',
-      science:'Ciencia',
-      history:'Historia'
-    },
-    coworking:'Coworking',
-    subCategories_2:{
-      plans:'Planes y precios',
-      reservations:'Reservas',
-      services:'Servicios',
-      memberships:'Membresías'
-    },
-    contact:'Contacto',
-    purchase:'Comprar',
-    login: 'Iniciar Sesión',
-    coffeeShop: 'Cafetería'
-  };
+bookCategories = {
+  fiction: 'Fiction',
+  nonFiction: 'Non-fiction',
+  mysteryThriller: 'Mystery & Thriller',
+  romance: 'Romance',
+  scienceFiction: 'Science Fiction',
+  fantasy: 'Fantasy',
+  horror: 'Horror',
+  drama: 'Drama',
+  adventure: 'Adventure',
+  childrensBooks: "Children's Books",
+  academicBooks: 'Academic Books'
+}
+
+
 
 }

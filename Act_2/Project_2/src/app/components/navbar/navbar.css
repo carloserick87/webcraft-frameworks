@@ -1,42 +1,28 @@
-
-.custom-navbar {
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
-
-.nexus {
-  color: var(--firstcolor);
-}
-
-.book {
-  color: var(--secondcolor);
-}
-
-
-
-.nav-link.active:hover {
-  color: var(--secondcolor) !important;
-  opacity: 0.8;
-}
-
-
-.cart-icon {
-  font-size: 20px;
-  line-height: 2 !important;
-  vertical-align: middle !important;
-  display: inline-flex;
-  align-items: center;
-}
-
-@media (min-width: 992px) {
-  .login-btn {
-    width: auto !important;
+.top-bar{
+  background-color:rgb(56, 64, 54);
+  a{
+    color: white;
+    font-size: 12px;
   }
 }
 
-
-.custom-navbar .nav-link:hover {
-  color: var(--secondcolor) !important;
+.container{
+  margin-top:2%;
 }
 
+categories-bar, ul, li , a{
+  color:rgb(56, 64, 54);
+}
+
+a:focus{
+  color: #FBF3E9;
+}
+
+.form-control{
+   width:100%;
+}
+
+.col{
+  padding:5px;
+}
 

@@ -1,15 +1,9 @@
-<!-- Navbar -->
+<!--  -------------------- NAVBAR --------------------  -->
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark  fixed-top shadow-sm px-4 custom-navbar">
-  <div class="container-fluid">
+<header>
+  <nav class="navbar navbar-expand-lg bg-light shadow-sm px-4 ">
 
-    <!-- Logo -->
-    <div class="navbar-brand fw-bold">
-      <span class="nexus">{{ brandName.name }} </span>
-      <span class="book">{{  brandName.descriptor }}</span>
-    </div>
-
-    <!-- Hamburger button -->
+        <!-- Hamburger button -->
     <button
       class="navbar-toggler"
       type="button"
@@ -21,68 +15,57 @@
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <!-- Menu  -->
-    <div class="collapse navbar-collapse" id="navbarNexus">
 
-      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-
-        <li class="nav-item">
-          <a class="nav-link" routerLink="/home" routerLinkActive="active">{{ menuBar.home }}</a>
-        </li>
-
-        <li class="nav-item ms-3">
-          <a class="nav-link" routerLink="/libros">{{ menuBar.books }}</a>
-        </li>
-
-        <!-- Subcategories 1-->
-        <li class="nav-item dropdown ms-3">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">{{ menuBar.categories}}</a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" routerLink="/Ficcion">{{ menuBar.subCategories_1.fiction}}</a></li>
-            <li><a class="dropdown-item" routerLink="/No Ficcion">{{ menuBar.subCategories_1.nonFiction}}</a></li>
-            <li><a class="dropdown-item" routerLink="/Cienca">{{ menuBar.subCategories_1.science}}</a></li>
-            <li><a class="dropdown-item" routerLink="/Historia">{{ menuBar.subCategories_1.history}}</a></li>
-          </ul>
-        </li>
-
-        <!-- Subcategories 2-->
-        <li class="nav-item dropdown ms-3">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">{{ menuBar.coworking}}</a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" routerLink="/cafeteria">{{ menuBar.subCategories_2.plans }}</a></li>
-            <li><a class="dropdown-item" routerLink="/cafeteria">{{ menuBar.subCategories_2.reservations }}</a></li>
-            <li><a class="dropdown-item" routerLink="/cafeteria">{{ menuBar.subCategories_2.services }}</a></li>
-            <li><a class="dropdown-item" routerLink="/cafeteria">{{ menuBar.subCategories_2.memberships }}</a></li>
-          </ul>
-        </li>
-
-        <li class="nav-item ms-3">
-          <a class="nav-link" routerLink="/cafeteria">{{menuBar.coffeeShop}}</a>
-        </li>
-
-
-        <li class="nav-item ms-3">
-          <a class="nav-link" routerLink="/cafeteria">{{ menuBar.aboutUs }}</a>
-        </li>
-
-        <li class="nav-item ms-3">
-          <a class="nav-link" routerLink="/contacto">{{ menuBar.contact}}</a>
-        </li>
-
-        <!-- Icon car -->
-        <li class="nav-item ms-3">
-          <span class="nav-link material-symbols-outlined d-none d-lg-inline align-middle cart-icon"><i class="bi bi-cart"></i></span>
-          <span class="nav-link d-inline d-lg-none">{{ menuBar.purchase}}</span>
-        </li>
-
-      </ul>
-
-      <!-- Login button, Movil responsive -->
-      <div class="d-flex ms-lg-4 mt-3 mt-lg-0">
-        <button class="btn btn-outline-warning w-100 w-lg-auto login-btn">
-          {{ menuBar.login}}
-        </button>
+      <div class="container-fluid top-bar d-flex fixed-top">
+        <ul class="nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="">{{ topMenu.home }}</a></li>
+          <li class="nav-item"><a class="nav-link" href="">{{ topMenu.about }}</a></li>
+          <li class="nav-item"><a class="nav-link" href="">{{ topMenu.place }}</a></li>
+          <li class="nav-item"><a class="nav-link" href="">{{ topMenu.events }}</a></li>
+          <li class="nav-item"><a class="nav-link" href="">{{ topMenu.contact }}</a></li>
+        </ul>
       </div>
-    </div>
+
+      <div class="container">
+        <div class="row align-items-center gap-5">
+          <div class="col-md-2 d-flex justify-content-center">
+            <img src="assets/img/Nexus_book_logo.svg">
+          </div>
+
+          <div class="col">
+            <form class="d-flex" role="search">
+             <input class="form-control " type="search" placeholder="Search by title, author, keyword or ISBN">
+          </form>
+          </div>
+
+          <div class="col d-flex justify-content-around">
+            <a class="nav-link"><i class="bi bi-person-circle"></i></a>
+            <a class="nav-link"><i class="bi bi-bag"></i></a>
+          </div>
+        </div>
+      </div>
+
+  </nav>
+
+  <div class="container-fluid categories-bar">
+    <ul class="nav justify-content-center">
+      <li class="nav-item"><a class="nav-link" href="">{{ bookCategories.fiction }}</a></li>
+      <li class="nav-item"><a class="nav-link" href="">{{ bookCategories.nonFiction }}</a></li>
+      <li class="nav-item"><a class="nav-link" href="">{{ bookCategories.mysteryThriller }}</a></li>
+      <li class="nav-item"><a class="nav-link" href="">{{ bookCategories.romance }}</a></li>
+      <li class="nav-item"><a class="nav-link" href="">{{ bookCategories.scienceFiction }}</a></li>
+      <li class="nav-item"><a class="nav-link" href="">{{ bookCategories.fantasy }}</a></li>
+      <li class="nav-item"><a class="nav-link" href="">{{ bookCategories.horror }}</a></li>
+      <li class="nav-item"><a class="nav-link" href="">{{ bookCategories.drama }}</a></li>
+      <li class="nav-item"><a class="nav-link" href="">{{ bookCategories.adventure }}</a></li>
+      <li class="nav-item"><a class="nav-link" href="">{{ bookCategories.childrensBooks }}</a></li>
+      <li class="nav-item"><a class="nav-link" href="">{{ bookCategories.academicBooks }}</a></li>
+    </ul>
   </div>
-</nav>
+
+</header>
+
+
+
+
+

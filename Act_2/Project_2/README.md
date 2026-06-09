@@ -1,61 +1,59 @@
-# Libreria Nexus
+# Project2
 
-![Nexus_logo](./public/img/Project_2.png)
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.13.
 
-## Objetivo del proyecto
+## Development server
 
-El objetivo de este proyecto es desarrollar, utilizando Angular, una aplicación web que forme parte del proyecto transversal de la Librería Nexus, un espacio multifuncional que combina venta de libros, coworking y cafetería.
+To start a local development server, run:
 
-En esta actividad se implementa específicamente el servicio de cafetería, permitiendo que el usuario navegue por diferentes páginas del sitio, seleccione productos, gestione un pedido y envíe solicitudes mediante un formulario de contacto.
+```bash
+ng serve
+```
 
-El enfoque principal es aplicar routing, servicios, componentes, maquetación responsiva y formularios reactivos para construir una experiencia web funcional y coherente con el ecosistema de la librería.
+Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
-## Caracteristicas principales
+## Code scaffolding
 
-- Sistema de routing completo, que permite navegar entre las diferentes secciones del servicio de cafeteria.
+Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
 
-- Tres páginas principales totalmente maquetadas:
+```bash
+ng generate component component-name
+```
 
-  - Landing page del servicio de cafetería.
+For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
 
-  - Página de productos, donde el usuario puede ver y seleccionar los artículos disponibles.
+```bash
+ng generate --help
+```
 
-  - Páginas de  checkout, donde se elige si el pedido se recogerá en el mostrador o se entregará en mesa del coworking.
+## Building
 
-  - Formulario de contacto creado con.
+To build the project run:
 
-- Servicio de Angular personalizado, encargado de proporcionar información dinámica sobre los productos (id, nombre, imagen, precio, etc.).
+```bash
+ng build
+```
 
-- Componentes reutilizables, conectados al servicio para mostrar la información del catálogo.
+This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
 
-- Formulario reactivo que muestra un mensaje al enviar la solicitud.
+## Running unit tests
 
-- Maquetación responsiva, con una columna central de 1200px y uso de filas/columnas para organizar el contenido.
+To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
 
-- Navegación accesible, con un menú permanente en todas las páginas.
+```bash
+ng test
+```
 
-- Contenido realista, incluyendo textos, imágenes y estructura visual coherente con un producto terminado.
+## Running end-to-end tests
 
-- Código limpio y organizado, siguiendo buenas prácticas de Angular.
+For end-to-end (e2e) testing, run:
 
-## Tecnologías utilizadas
+```bash
+ng e2e
+```
 
-- Angular 20.3
-- TypeScript
-- HTML5
-- CSS3
-- Angular Router
-- Angular Reactive Forms
-- Angular Services
-- Angular Services 
-- Bootstrap
-- RxJS
-- Node,js + npm
-- Git & GitHub
-- Vercel
+Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
 
-## Instalación y ejecución
+## Additional Resources
 
-## Despliegue
-
-## Autor
+For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
