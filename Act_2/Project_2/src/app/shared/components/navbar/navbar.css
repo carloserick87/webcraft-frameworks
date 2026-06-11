@@ -1,0 +1,27 @@
+.navbar{
+  padding:0px;
+}
+
+.top-bar{
+  background-color:rgb(56, 64, 54);
+  margin: 0px;
+    a{
+     color:aliceblue;
+     font-size: 12px;
+    }
+}
+.busqueda{
+  padding-top:5px;
+  .logo{
+    margin: 0% 7%;
+  }
+}
+
+
+.form-control{
+  width:348px;
+}
+
+.bi-person, .bi-bag{
+  font-size: 26px;
+}
