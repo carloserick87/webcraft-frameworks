@@ -1,0 +1,123 @@
+{
+  "generado": "2026-10-21T18:51:48",
+  "semilla": 20261020,
+  "nsim": 10000,
+  "ncomb": 10,
+  "validacion": {
+    "sorteos": 1991,
+    "primer_sorteo": "2004-02-13",
+    "ultimo_sorteo": "2026-10-20",
+    "problemas": [],
+    "sorteos_hasta_corte_B": 1991
+  },
+  "manifiesto": [
+    {
+      "zip": "01_euromillions_2004-02_2011-05.zip",
+      "sha256": "c8cd66ae98864000cfee02e47021b96896095b5971657fcae582bf752cbdb152",
+      "csv": "euromillions.csv",
+      "filas": 378
+    },
+    {
+      "zip": "02_euromillions_2011-05_2014-02.zip",
+      "sha256": "fe7a4bad4fdadc86776e8a88c45057a9977e85521a3580607beec83a8e2e25cd",
+      "csv": "euromillions_2.csv",
+      "filas": 286
+    },
+    {
+      "zip": "03_euromillions_2014-02_2016-09.zip",
+      "sha256": "bd35c6fed317f0dbb8487c7aeda0d3a40a5754ebbbf5a92e4670f1cb1ee80101",
+      "csv": "euromillions_3.csv",
+      "filas": 276
+    },
+    {
+      "zip": "04_euromillions_2016-09_2019-02.zip",
+      "sha256": "6d84073487efa6691d61aa1781b0cc45d329c03fdb7d775a3ce77e2a337dcf55",
+      "csv": "euromillions_4.csv",
+      "filas": 253
+    },
+    {
+      "zip": "05_euromillions_2019-03_2020-02.zip",
+      "sha256": "90036089e5eedbf86c6298105134c8fe80f5a80d29c76e5fbcc20eaeaadd6c82",
+      "csv": "euromillions_201902.csv",
+      "filas": 97
+    },
+    {
+      "zip": "06_euromillions_2020-02_2026-10.zip",
+      "sha256": "a80cd8db4eeb05169849786a2234f64b7b66c60f63a3ba71a93c893ebfa95904",
+      "csv": "euromillions_202002.csv",
+      "filas": 701
+    }
+  ],
+  "sorteos": {
+    "A_hasta_2023-10-20": 1678,
+    "B_hasta_2026-10-20": 1991,
+    "ventana_2023-10-21_a_2026-10-20": 313
+  },
+  "sorteos_era12": {
+    "A_hasta_2023-10-20_era12": 738,
+    "B_hasta_2026-10-20_era12": 1051,
+    "ventana_2023-10-21_a_2026-10-20": 313
+  },
+  "gaps": {
+    "n_gaps": 9905,
+    "gap_medio_obs": 9.953255931347805,
+    "gap_medio_teorico": 10.0,
+    "gap_max_obs": 88,
+    "chi2": 18.828382266207665,
+    "p": 0.7610789996754062
+  },
+  "pct_suma_10_90": [
+    87,
+    168
+  ],
+  "combinaciones_ok": true,
+  "iteraciones_busqueda": 75,
+  "numeros_cubiertos": 50,
+  "total_combinaciones_posibles": 139838160,
+  "frecuencias_holm_significativas": 0,
+  "frecuencias_familia": 206,
+  "pares_holm_significativos": 0,
+  "pares_familia": 5673,
+  "menor_p_par": {
+    "corte": "A_hasta_2023-10-20_era12",
+    "tipo": "numero_estrella",
+    "a": 10,
+    "b": 3,
+    "frecuencia": 27,
+    "esperada": 12.3,
+    "p": 0.000225,
+    "p_holm": 1.0
+  },
+  "uniformidad_holm_significativas": 0,
+  "uniformidad_familia": 34,
+  "cartera": [
+    {
+      "cartera": "diversificada",
+      "evento": "alguna_linea_>=2_numeros",
+      "probabilidad_mc": 0.62904,
+      "probabilidad_exacta": 0.62832,
+      "sorteos_simulados": 100000
+    },
+    {
+      "cartera": "diversificada",
+      "evento": "alguna_linea_>=3_numeros",
+      "probabilidad_mc": 0.04728,
+      "probabilidad_exacta": 0.04779,
+      "sorteos_simulados": 100000
+    },
+    {
+      "cartera": "aleatoria_referencia",
+      "evento": "alguna_linea_>=2_numeros",
+      "probabilidad_mc": 0.52548,
+      "probabilidad_exacta": NaN,
+      "sorteos_simulados": 100000
+    },
+    {
+      "cartera": "aleatoria_referencia",
+      "evento": "alguna_linea_>=3_numeros",
+      "probabilidad_mc": 0.04673,
+      "probabilidad_exacta": NaN,
+      "sorteos_simulados": 100000
+    }
+  ]
+}

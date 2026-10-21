@@ -1,0 +1,38 @@
+[
+  {
+    "zip": "01_euromillions_2004-02_2011-05.zip",
+    "sha256": "c8cd66ae98864000cfee02e47021b96896095b5971657fcae582bf752cbdb152",
+    "csv": "euromillions.csv",
+    "filas": 378
+  },
+  {
+    "zip": "02_euromillions_2011-05_2014-02.zip",
+    "sha256": "fe7a4bad4fdadc86776e8a88c45057a9977e85521a3580607beec83a8e2e25cd",
+    "csv": "euromillions_2.csv",
+    "filas": 286
+  },
+  {
+    "zip": "03_euromillions_2014-02_2016-09.zip",
+    "sha256": "bd35c6fed317f0dbb8487c7aeda0d3a40a5754ebbbf5a92e4670f1cb1ee80101",
+    "csv": "euromillions_3.csv",
+    "filas": 276
+  },
+  {
+    "zip": "04_euromillions_2016-09_2019-02.zip",
+    "sha256": "6d84073487efa6691d61aa1781b0cc45d329c03fdb7d775a3ce77e2a337dcf55",
+    "csv": "euromillions_4.csv",
+    "filas": 253
+  },
+  {
+    "zip": "05_euromillions_2019-03_2020-02.zip",
+    "sha256": "90036089e5eedbf86c6298105134c8fe80f5a80d29c76e5fbcc20eaeaadd6c82",
+    "csv": "euromillions_201902.csv",
+    "filas": 97
+  },
+  {
+    "zip": "06_euromillions_2020-02_2026-10.zip",
+    "sha256": "a80cd8db4eeb05169849786a2234f64b7b66c60f63a3ba71a93c893ebfa95904",
+    "csv": "euromillions_202002.csv",
+    "filas": 701
+  }
+]

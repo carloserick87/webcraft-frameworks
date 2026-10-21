@@ -1,0 +1,10 @@
+prueba,valor,p_o_percentil,detalle
+spearman_rho_frec_A_vs_ventana_numeros,-0.0132,0.9275,
+pearson_r_frec_A_vs_ventana_numeros,-0.0521,0.7193,
+spearman_rho_frec_A_vs_ventana_estrellas_era12,-0.3357,0.2861,
+10_mas_frecuentes_hasta_2023,297.0,0.8247,"numeros [23, 21, 19, 44, 42, 17, 50, 26, 38, 25]; esperado 313.0; percentil frente a 10-subconjuntos aleatorios"
+10_menos_frecuentes_hasta_2023,324.0,0.7458,"numeros [36, 40, 2, 8, 47, 41, 33, 18, 46, 22]; esperado 313.0"
+5_mas_frecuentes_hasta_2023_aciertos_totales_ventana,161.0,0.3842,"numeros [23, 21, 19, 44, 42]; esperado 156.5; sorteos con >=2 aciertos 27, >=3 2"
+5_menos_frecuentes_hasta_2023_aciertos_totales_ventana,159.0,0.4452,"numeros [41, 33, 18, 46, 22]; esperado 156.5; sorteos con >=2 aciertos 30, >=3 2"
+apuesta_aleatoria_5_numeros_media_aciertos_ventana,156.49,,"sorteos con >=2 aciertos media 22.4, >=3 media 1.50"
+2_estrellas_mas_frecuentes_hasta_2023_aciertos_ventana,100.0,0.6867,"estrellas [3, 2]; esperado 104.3; media aleatoria 104.5"
