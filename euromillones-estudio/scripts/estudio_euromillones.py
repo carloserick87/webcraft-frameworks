@@ -903,7 +903,7 @@ Las estrellas reparten las 12 posibles entre los boletos.
 
 Ninguno de estos filtros cambia la probabilidad de acierto (1 entre {R['total_combinaciones_posibles']:,} por boleto);
 la unica ventaja documentada de evitar patrones populares (fechas, secuencias, diagonales) es reducir la probabilidad
-de compartir un premio, no la de ganarlo. Jugar implica una esperanza matematica negativa.
+de compartir un premio, no la de ganarlo. La diversificacion no demuestra rentabilidad ni garantiza recuperar lo apostado. Este estudio no calcula la esperanza monetaria de las apuestas.
 
 {md_tabla(comb_df, ['id','n1','n2','n3','n4','n5','e1','e2','suma','impares'])}
 Lo unico que cambia la diversificacion es la cobertura de la cartera en un mismo sorteo (`output/cartera_cobertura.csv`,

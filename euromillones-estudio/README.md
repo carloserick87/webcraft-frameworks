@@ -50,4 +50,4 @@ y ajustar `CORTE_B` en el script.
 - Validacion automatica: sin fechas duplicadas, bolas 1-50 sin repeticion, estrellas dentro del maximo de su era,
   columna de control de FDJ coincidente en el 100 % de los sorteos.
 
-Jugar a Euromillones tiene esperanza matematica negativa. Las combinaciones del estudio solo evitan solaparse entre si.
+La diversificacion no demuestra rentabilidad ni garantiza recuperar lo apostado. Este estudio no calcula la esperanza monetaria de las apuestas. Las combinaciones del estudio solo evitan solaparse entre si.
